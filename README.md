@@ -1,6 +1,6 @@
 #  youtube-dl android builds
 
-Scripts to build binary packages to run youtube-dl (with FFmpeg) on Android, with Python and just the required dependencies. These scripts use the [termux build system](https://github.com/termux/termux-packages) to build the entire required packages and then the unnecessary packages and the files are trimmed off to get just the required minimal build. The list of required packages to run `youtube-dl` are in the file `required-packages.txt`, which is used by the script to trim off unnecessary packages for our build.
+Scripts to build binary packages to run [youtube-dl](https://github.com/ytdl-org/youtube-dl) (with [FFmpeg](https://www.ffmpeg.org/)) on Android, with Python and just the required dependencies. These scripts use the [termux build system](https://github.com/termux/termux-packages) to build the entire required packages and then the unnecessary packages and the files are trimmed off to get just the required minimal build. The list of required packages to run `youtube-dl` are in the file `required-packages.txt`, which is used by the script to trim off unnecessary packages for our build.
 
 Note: These packages work only for Android 5 (Lollipop) and above.
 
